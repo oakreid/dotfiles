@@ -1,6 +1,5 @@
 " Installed packages:
 " - jmcantrell/vim-virtualenv
-" - psf/black
 " - cespare/vim-toml
 " - vim-python/python-syntax
 " - preservim/nerdtree
