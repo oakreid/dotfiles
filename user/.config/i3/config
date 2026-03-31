@@ -176,9 +176,9 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
+bar {
+        status_command i3status
+}
 #exec_always --no-startup-id /home/oreid/.config/polybar/launch.sh
 #exec_always --no-startup-id i3-msg "workspace 1; exec /home/oreid/.cache/pypoetry/virtualenvs/doomguy-status-KP3wcrUD-py3.7/bin/i3_daemon"
 #exec_always --no-startup-id i3-msg "workspace 1; exec /home/oreid/.cache/pypoetry/virtualenvs/doomguy-status-KP3wcrUD-py3.7/bin/doom"

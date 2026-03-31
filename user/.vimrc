@@ -24,6 +24,9 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+inoremap <S-Tab> <C-v><Tab>
+set list
+set listchars=tab:>·
 
 " show line numbers
 set number
