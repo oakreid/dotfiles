@@ -36,6 +36,10 @@ set hlsearch
 " store swap files in one location
 set directory=~/.vim/swap
 
+" store undo history after close
+set undofile
+set undodir=~/.vim/undo
+
 " make horizontal scrolling nice
 set nowrap
 set sidescroll=1

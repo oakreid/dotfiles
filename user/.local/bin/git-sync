@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+branch=${1:-main}
+git fetch --all
+git checkout ${branch}
+git pull origin ${branch}
