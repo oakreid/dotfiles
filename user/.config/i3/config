@@ -184,7 +184,8 @@ bar {
 #exec_always --no-startup-id i3-msg "workspace 1; exec /home/oreid/.cache/pypoetry/virtualenvs/doomguy-status-KP3wcrUD-py3.7/bin/doom"
 
 # lock
-bindsym $mod+o exec "i3lock -c 000000"
+bindsym $mod+o exec "i3lock -c 111111"
+bindsym $mod+Shift+o exec "i3lock -c 000000 && systemctl suspend"
 
 # move workspaces around for multi monitor
 bindsym $mod+Shift+greater move workspace to output right

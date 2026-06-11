@@ -5,6 +5,7 @@
 " - preservim/nerdtree
 " - davidhalter/jedi-vim
 " - vim-airline/vim-airline
+" - preservim/nerdcommenter
 
 " enable syntax highlighting
 syntax on
@@ -145,3 +146,9 @@ let g:black_virtualenv = $VIRTUAL_ENV
 
 " use pep8 python indentation
 let g:pyindent_open_paren=shiftwidth()
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
